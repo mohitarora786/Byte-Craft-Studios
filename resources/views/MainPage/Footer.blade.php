@@ -10,7 +10,7 @@
             </div>
           </div>
           <div class="button-box">
-            <a class="btn-style-three get-btn theme-btn btn-item" href="#">
+            <a class="btn-style-three get-btn theme-btn btn-item" href="{{url('/contact')}}">
               <div class="btn-wrap">
                 <span class="text-one">View Portfolio </span>
                 <span class="text-two">View Portfolio </span>
@@ -47,11 +47,11 @@
                         <div class="text">
                             <div class="menu">
                                 <ul class="list-unstyled list-hover">
-                                    <li><a href="{{ url('about') }}">About us</a></li>
-                                    <li><a href="{{ url('services') }}">Services</a></li>
+                                    <li><a href="{{ url('/abouts') }}">About us</a></li>
+                                    <li><a href="{{ url('/service') }}">Services</a></li>
                                     <li><a href="{{ url('project') }}">Project</a></li>
-                                    <li><a href="{{ url('career') }}">Career</a></li>
-                                    <li><a href="{{ url('contact') }}">Contact</a></li>
+                                    <li><a href="{{ url('/career') }}">Career</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,11 +65,11 @@
                         <div class="text">
                             <div class="menu">
                                 <ul class="list-unstyled">
-                                    <li><a href="{{ url('webDevelopment') }}">Web & Software Development</a></li>
-                                    <li><a href="{{ url('DigitalMarketing') }}">Digital Marketing</a></li>
-                                    <li><a href="{{ url('GraphicDesign&Branding') }}">Graphic Design & Branding</a></li>
-                                    <li><a href="{{ url('ItSupport&Consulting') }}">IT Support & Consulting</a></li>
-                                    <li><a href="{{ url('DataServices') }}">Data Services</a></li>
+                                    <li><a href="{{ url('/webdevelopment') }}">Web & Software Development</a></li>
+                                    <li><a href="{{ url('/digitalmarketing') }}">Digital Marketing</a></li>
+                                    <li><a href="{{ url('/graphicdesign') }}">Graphic Design & Branding</a></li>
+                                    <li><a href="{{ url('/itSupport') }}">IT Support & Consulting</a></li>
+                                    <li><a href="{{ url('/dataService') }}">Data Services</a></li>
                                 </ul>
                             </div>
                         </div>

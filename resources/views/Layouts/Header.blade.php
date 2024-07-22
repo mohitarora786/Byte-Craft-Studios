@@ -75,13 +75,13 @@
 
                       <li class="dropdown" id="dispaly-none-screen">
 
-                        <a href="#">Services</a>
+                        <a href="{{url('/service')}}">Services</a>
 
                         <ul>
                           <!-- this for Services  -->
                           <li class="dropdown">
 
-                            <a href="#">Services</a>
+                            <a href="{{url('/service')}}">Services</a>
 
                             <ul class="Ul-mobile-view">
                               <li>
@@ -268,7 +268,7 @@
                     </style>
 
                     <li class="dropdown-1 remove-class" style='align-items: center;'>
-                      <a class="mega-drop" href="#">Services</a>
+                      <a class="mega-drop" href="{{url('/service')}}">Services</a>
 
                       <nav class="cd-dropdown">
                         <!-- <h2>Title</h2> -->
@@ -469,7 +469,7 @@
 
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <a href="{{url('/contact')}}">Contact</a>
                     </li>
 
                     </ul>
@@ -519,7 +519,7 @@
           </div> -->
 
                   <div class="button-box">
-                    <a class="btn-style-three get-btn theme-btn btn-item" href="./contact.html#contact-form">
+                  <a class="btn-style-three get-btn theme-btn btn-item" href="{{ url('/contact#contact-form') }}">
                       <div class="btn-wrap">
                         <span class="text-one">Get a quote now </span>
                         <span class="text-two">Get a quote now </span>
