@@ -112,21 +112,21 @@
                             everything from the apps on your phone to the complex systems that control space missions. Without
                             software development, the modern conveniences and technological advancements we rely on daily would
                             not exist. <br>
-                            <h6>Stages of SDLC</h6>
-                            <ul style="list-style: disc;">
-                                <li>Requirements Gathering: This initial phase involves understanding and documenting what the
-                                    stakeholders need from the software.</li>
-                                <li>Design: In this stage, the software’s architecture is designed, detailing both the system and
-                                    software levels. This includes defining the overall system architecture, data flow, and database
-                                    design.</li>
-                                <li>Implementation: This is where the actual coding happens. Developers write the code as per the
-                                    specifications and designs laid out in the previous stages.</li>
-                                <li>Testing: After coding, the software is tested to identify and fix bugs.</li>
-                                <li>Deployment: Once tested and ready, the software is deployed to the user environment. This may be a
-                                    gradual release to ensure everything works correctly.</li>
-                                <li>Maintenance: Post-deployment, the software will likely need updates and bug fixes. This ongoing
-                                    phase ensures the software remains functional and relevant.</li>
-                            </ul>
+                        <h6>Stages of SDLC</h6>
+                        <ul style="list-style: disc;">
+                            <li>Requirements Gathering: This initial phase involves understanding and documenting what the
+                                stakeholders need from the software.</li>
+                            <li>Design: In this stage, the software’s architecture is designed, detailing both the system and
+                                software levels. This includes defining the overall system architecture, data flow, and database
+                                design.</li>
+                            <li>Implementation: This is where the actual coding happens. Developers write the code as per the
+                                specifications and designs laid out in the previous stages.</li>
+                            <li>Testing: After coding, the software is tested to identify and fix bugs.</li>
+                            <li>Deployment: Once tested and ready, the software is deployed to the user environment. This may be a
+                                gradual release to ensure everything works correctly.</li>
+                            <li>Maintenance: Post-deployment, the software will likely need updates and bug fixes. This ongoing
+                                phase ensures the software remains functional and relevant.</li>
+                        </ul>
                         </p>
                         <div class="row clearfix">
                             <!-- Feature Two -->
@@ -176,35 +176,35 @@
                             </div>
                         </div>
                         <div class="feature-lower_box">
-                  <div class="row clearfix">
-                    <!-- Feature Three -->
-                    <div class="feature-three col-lg-4 col-md-4 col-sm-6">
-                      <div class="feature-three_inner">
-                        <span class="feature-three_icon"><img src="images/icons/service-35.webp" alt="" /></span>
-                        Best quality <br />
-                        support
-                      </div>
-                    </div>
+                            <div class="row clearfix">
+                                <!-- Feature Three -->
+                                <div class="feature-three col-lg-4 col-md-4 col-sm-6">
+                                    <div class="feature-three_inner">
+                                        <span class="feature-three_icon"><img src="images/icons/service-35.webp" alt="" /></span>
+                                        Best quality <br />
+                                        support
+                                    </div>
+                                </div>
 
-                    <!-- Feature Three -->
-                    <div class="feature-three col-lg-4 col-md-4 col-sm-6">
-                      <div class="feature-three_inner">
-                        <span class="feature-three_icon"><img src="images/icons/service-36.webp" alt="" /></span>
-                        Best quality <br />
-                        support
-                      </div>
-                    </div>
+                                <!-- Feature Three -->
+                                <div class="feature-three col-lg-4 col-md-4 col-sm-6">
+                                    <div class="feature-three_inner">
+                                        <span class="feature-three_icon"><img src="images/icons/service-36.webp" alt="" /></span>
+                                        Best quality <br />
+                                        support
+                                    </div>
+                                </div>
 
-                    <!-- Feature Three -->
-                    <div class="feature-three col-lg-4 col-md-4 col-sm-6">
-                      <div class="feature-three_inner">
-                        <span class="feature-three_icon"><img src="images/icons/service-37.webp" alt="" /></span>
-                        Best quality <br />
-                        support
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                                <!-- Feature Three -->
+                                <div class="feature-three col-lg-4 col-md-4 col-sm-6">
+                                    <div class="feature-three_inner">
+                                        <span class="feature-three_icon"><img src="images/icons/service-37.webp" alt="" /></span>
+                                        Best quality <br />
+                                        support
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
