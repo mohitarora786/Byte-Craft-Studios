@@ -83,11 +83,11 @@
                         <div class="text">
                             <div class="menu">
                                 <ul class="list-unstyled">
-                                    <li><a href="{{ url('pre-production-services') }}">Pre-Production</a></li>
-                                    <li><a href="{{ url('production-services') }}">Production</a></li>
-                                    <li><a href="{{ url('post-production-services') }}">Post-Production</a></li>
-                                    <li><a href="{{ url('distribution-and-marketing-services') }}">Distribution & Marketing</a></li>
-                                    <li><a href="{{ url('additional-services-Film') }}">Video Production</a></li>
+                                    <li><a href="{{ url('/preproduction') }}">Pre-Production</a></li>
+                                    <li><a href="{{ url('/production') }}">Production</a></li>
+                                    <li><a href="{{ url('/postproduction') }}">Post-Production</a></li>
+                                    <li><a href="{{ url('/marketing') }}">Distribution & Marketing</a></li>
+                                    <li><a href="{{ url('/video') }}">Video Production</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -46,3 +46,8 @@ Route::get('/dataanalytics', function () { return view('Developments.Dataservice
 Route::get('/datamanagement', function () { return view('Developments.Dataservices.DataManagement.DataManagement');});
 Route::get('/datascienceconsulting', function () { return view('Developments.Dataservices.DataScience.DataScience');});
 Route::get('/edgecomputing', function () { return view('Developments.Dataservices.EdgeComputing.Edgecomputing');});
+Route::get('/marketing', function () { return view('FilmServices.Distribution.Distribution');});
+Route::get('/postproduction', function () { return view('FilmServices.PostProduction.Postproduction');});
+Route::get('/preproduction', function () { return view('FilmServices.Preproduction.Preproduction');});
+Route::get('/production', function () { return view('FilmServices.Production.Production');});
+Route::get('/video', function () { return view('FilmServices.Videoproduction.Video');});
