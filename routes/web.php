@@ -40,3 +40,9 @@ Route::get('/business', function () { return view('Developments.itsupport.Busine
 Route::get('/virtualcto', function () { return view('Developments.itsupport.VirtualCto.Virtualcto');});
 Route::get('/enterprise', function () { return view('Developments.itsupport.Enterprise.Enterprise');});
 Route::get('/dataService', function () { return view('Developments.Dataservices.DataService');});
+Route::get('/aimachinelearning', function () { return view('Developments.Dataservices.AiM.Ai');});
+Route::get('/bigdatasolutions', function () { return view('Developments.Dataservices.BigData.BigData');});
+Route::get('/dataanalytics', function () { return view('Developments.Dataservices.DataAnalysts.DataAnalysts');});
+Route::get('/datamanagement', function () { return view('Developments.Dataservices.DataManagement.DataManagement');});
+Route::get('/datascienceconsulting', function () { return view('Developments.Dataservices.DataScience.DataScience');});
+Route::get('/edgecomputing', function () { return view('Developments.Dataservices.EdgeComputing.Edgecomputing');});

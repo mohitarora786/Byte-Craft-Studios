@@ -1,7 +1,7 @@
 
 <div class="sidebar-page-container">
     <div class="auto-container">
-        <div class="row clearfix">
+        <div class="row clearfix .drop-down-parent">
             <!-- Sidebar Side -->
             <div class="sidebar-side left-sidebar col-lg-4 col-md-12 col-sm-12">
                 <aside class="sidebar sticky-sidebar">
@@ -9,28 +9,22 @@
                     <div class="sidebar-widget category-widget">
                         <div class="drop-down mobile-drop">
                             <button id="toc-toggle" class="toc-toggle dropdown">
-                                <span>Data Services</span>
+                                <span>Artificial Intelligence and Machine Learning</span>
                                 <div class="caret"></div>
                             </button>
                             <div id="toc" class="toc-body">
                                 <ul class="toc-list">
                                     <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/dataanalytics') }}">Data Analytics and Business Intelligence</a>
+                                        <a class="toc-link" href="#Details-1">AI Consulting and Development</a>
                                     </li>
                                     <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/datamanagement') }}">Data Management</a>
+                                        <a class="toc-link" href="#Details-2">Machine Learning Model Development</a>
                                     </li>
                                     <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/aimachinelearning') }}">Artificial Intelligence and Machine Learning</a>
+                                        <a class="toc-link" href="#Details-3">Natural Language Processing (NLP)</a>
                                     </li>
                                     <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/datascienceconsulting') }}">Data Science and AI Consulting</a>
-                                    </li>
-                                    <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/bigdatasolutions') }}">Data Lakes and Big Data Solutions</a>
-                                    </li>
-                                    <li class="toc-item">
-                                        <a class="toc-link" href="{{ url('/edgecomputing') }}">Edge Computing Solutions</a>
+                                        <a class="toc-link" href="#Details-4">Computer Vision Solution</a>
                                     </li>
                                 </ul>
                             </div>
@@ -45,7 +39,7 @@
                             <a class="phone" href="tel:+557-3452-234">+91 866-8367-265</a>
                             <div class="form">or go to contact form:</div>
                             <div class="button-box text-center">
-                                <a href="{{ url('/dataService') }}">Let’s start now
+                                <a href="#">Let’s start now
                                     <span class="fa-solid fa-link fa-fw"></span></a>
                             </div>
                         </div>
@@ -57,25 +51,32 @@
             <div class="content-side right-sidebar col-lg-8 col-md-12 col-sm-12">
                 <div class="service-detail">
                     <div class="inner-box">
-                        <h3 id="Details-1">Data Services</h3>
+                        <!-- <div class="image">
+                            <img src="{{ asset('images/resource/service-10.webp') }}" alt="" />
+                        </div> -->
+                        <h3 id="Details-1">AI Consulting and Development</h3>
                         <p>
-                            Data Services refer to the range of processes and technologies that organizations employ to manage,
-                            analyze, and derive value from data throughout its lifecycle. These services encompass a variety of
-                            functions, including data integration, storage, processing, analysis, and visualization. The primary
-                            goal of data services is to enable organizations to make informed decisions, gain actionable insights,
-                            and drive business outcomes based on data-driven strategies.
-                            <h6> Key components of data services include: </h6>
-                            <ul style="list-style: disc;">
-                                <li>Data Integration: Consolidating data from disparate sources into a unified format for efficient storage and analysis.</li>
-                                <li>Data Storage: Managing data repositories, whether on-premises, in the cloud, or hybrid environments, ensuring scalability, reliability, and security.</li>
-                                <li>Data Processing: Performing operations on data to transform, clean, aggregate, and prepare it for analysis and consumption by applications and users.</li>
-                                <li>Data Analysis: Utilizing algorithms, statistical methods, and machine learning techniques to uncover patterns, trends, and correlations within data to support decision-making.</li>
-                                <li>Data Visualization: Presenting data in visual formats such as charts, graphs, and dashboards to facilitate understanding and interpretation by stakeholders.</li>
-                                <li>Data Governance and Security: Implementing policies, procedures, and controls to ensure data quality, integrity, privacy, and compliance with regulatory requirements.</li>
-                                <li>Data Lifecycle Management: Managing data from creation to archival or deletion, including data retention policies, backup, and disaster recovery strategies.</li>
-                            </ul>
-                            <br>
-                            Effective data services are essential for leveraging data as a strategic asset, enabling organizations to optimize operations, innovate, and maintain competitive advantage in today's data-driven economy. By adopting robust data management practices and leveraging advanced analytics capabilities, organizations can harness the full potential of their data to drive business growth and achieve their goals.
+                            AI Consulting and Development involves providing expertise, guidance, and services to organizations seeking to leverage artificial intelligence (AI) technologies to solve business challenges and drive innovation. AI consultants work closely with businesses to assess their needs, identify opportunities for AI integration, and develop tailored solutions that harness the power of machine learning, natural language processing, computer vision, and other AI techniques. This process typically begins with understanding the organization's objectives, data infrastructure, and existing capabilities, followed by designing AI strategies and roadmaps that align with business goals.
+                            <br><br>
+                            AI consulting firms also provide training and support to help organizations build internal AI capabilities, optimize AI solutions, and measure the impact of AI initiatives on business outcomes. By partnering with AI consultants, organizations can accelerate their AI adoption journey, gain competitive advantage, and unlock new opportunities for growth and innovation in a rapidly evolving digital landscape.
+                        </p>
+                        <h3 id="Details-2">Machine Learning Model Development</h3>
+                        <p>
+                            Machine Learning Model Development involves the creation and implementation of algorithms and statistical models that enable computers to learn from data and make predictions or decisions without explicit programming instructions. This process begins with defining the problem and selecting appropriate machine learning techniques, such as supervised learning for labeled data, unsupervised learning for unlabeled data, or reinforcement learning for decision-making tasks. Data preparation is crucial, involving cleaning, preprocessing, and feature engineering to ensure the quality and relevance of input data.
+                            <br><br>
+                            Machine learning model development spans various domains, including natural language processing, image recognition, recommendation systems, and predictive analytics. Organizations leverage machine learning models to automate processes, gain insights from data, improve decision-making, and enhance user experiences. Successful model development requires expertise in data science, mathematics, and programming, along with a thorough understanding of business objectives and domain-specific challenges.
+                        </p>
+                        <h3 id="Details-3">Natural Language Processing (NLP)</h3>
+                        <p>
+                            Natural Language Processing (NLP) is a branch of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful. It encompasses a range of techniques and algorithms designed to process and analyze large volumes of natural language data, including text and speech. NLP enables machines to perform tasks such as language translation, sentiment analysis, speech recognition, text summarization, and language generation.
+                            <br><br>
+                            Applications of NLP span across industries such as healthcare (clinical text analysis), customer service (chatbots), finance (sentiment analysis of market news), and information retrieval (search engines). Advances in deep learning and neural networks have significantly improved the accuracy and capabilities of NLP models, enabling more sophisticated and accurate language processing tasks. NLP continues to play a crucial role in enhancing human-computer interaction, automating tasks, and unlocking new opportunities for innovation in natural language understanding and generation.
+                        </p>
+                        <h3 id="Details-4">Computer Vision Solution</h3>
+                        <p>
+                            Computer Vision Solutions involve the development and deployment of algorithms and technologies that enable computers to interpret and analyze visual information from the world around them. This field of artificial intelligence focuses on enabling machines to perceive, understand, and make decisions based on digital images or videos. Computer vision solutions utilize techniques such as image processing, pattern recognition, and machine learning to extract meaningful insights from visual data and automate tasks that traditionally require human visual perception.
+                            <br><br>
+                            Computer vision solutions find applications across various industries, including healthcare (medical imaging analysis), automotive (autonomous driving), retail (product recognition and inventory management), security (surveillance systems), and agriculture (crop monitoring). Advances in deep learning, neural networks, and image processing techniques have significantly enhanced the accuracy and capabilities of computer vision models, enabling more complex and accurate visual recognition tasks. As computer vision continues to evolve, it promises to revolutionize industries, improve efficiency, and enable innovative applications in everyday life.
                         </p>
                         <div class="row clearfix">
                             <!-- Feature Two -->
