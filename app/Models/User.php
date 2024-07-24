@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'is_admin', // Add is_admin to fillable attributes
     ];
 
     /**
@@ -40,5 +41,10 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'is_admin' => 'boolean', // Cast is_admin to boolean
     ];
+    public function canAccessFilament(): bool
+    {
+        return $this->is_admin; // Only admin users can access the Filament dashboard
+    }
 }
